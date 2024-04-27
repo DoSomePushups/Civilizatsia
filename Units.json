@@ -1739,5 +1739,19 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
+	}, 
+//Mode
+{
+		"name": "РобоСкаут",
+		"unitType": "Scout",
+                "uniqueTo": "МГЕ братья",
+		"replaces": "Scout",
+		"movement": 4,
+		"strength": 2,
+		"cost": 10,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "metalhit"
 	}
     ]
